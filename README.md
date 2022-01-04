@@ -4,7 +4,7 @@
         <meta name="viewport" content="width=device-width"> 
         <meta charset= "UTF-8">
         <title>Undervault The Band</title>
-        <link rel= "stylesheet" href= "unerdtheband.css" media= "all">
+        <link rel= "stylesheet" href= "styles/unerdtheband.css" type= 'text/css>
     </head>
     <body>
       <div class= "page">
