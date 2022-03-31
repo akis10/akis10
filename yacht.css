@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Rajdhani", sans-serif;
+  /* border-left: 100px solid black;
+  border-right: 100px solid black; */
+  display: flex;
+
+  flex-direction: column;
+  gap: 3rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(230, 247, 255);
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+img {
+  width: 500px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+li {
+  list-style-type: none;
+}
+
+p {
+  width: 400px;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.boat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15rem;
+}
+
+.yacht {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15rem;
+  flex-direction: row-reverse;
+}
+
+.liner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15rem;
+}
+
+.products {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+}
