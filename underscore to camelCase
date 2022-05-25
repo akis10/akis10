@@ -1,0 +1,17 @@
+document.body.append(document.createElement('textarea'));
+document.body.append(document.createElement('button'));
+
+document.querySelector('button').addEventListener('click', function () {
+  const text = document.querySelector('textarea').value;
+  const textArray = text.split('\n');
+  const array1 = [];
+  for (const i of textArray) {
+    const name1 = i.toLowerCase();
+    const [first, second] = name1.split('_');
+    const word = first + second[0].toUpperCase() + second.slice(1);
+    array1.push(word);
+  }
+  console.log(textArray);
+  console.log(array1);
+  document.querySelector('textarea').value = array1.join('\n');
+});
