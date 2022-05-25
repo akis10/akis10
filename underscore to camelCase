@@ -9,7 +9,8 @@ document.querySelector('button').addEventListener('click', function () {
     const name1 = i.toLowerCase();
     const [first, second] = name1.split('_');
     const word = first + second[0].toUpperCase() + second.slice(1);
-    array1.push(word);
+    const word1 = word.trim();
+    array1.push(word1);
   }
   console.log(textArray);
   console.log(array1);
