@@ -1,0 +1,14 @@
+function
+myFunction
+(
+x, y
+)
+{
+for(let i = 0; i < 100; i++){
+  if(Number.isInteger(x / y)){
+    return x;
+  }else{
+   x++;
+  }  
+}
+}
