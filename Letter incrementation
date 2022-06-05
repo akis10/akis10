@@ -1,0 +1,9 @@
+function
+myFunction(str){
+const x = [];
+for(let i = 0; i < str.length; i++){
+  x.push(String.fromCharCode(str.charCodeAt(i) + 1));
+  }
+const y = x.join('');
+return y;
+}
