@@ -1,9 +1,9 @@
-function
-myFunction(str){
-const x = [];
-for(let i = 0; i < str.length; i++){
-  x.push(String.fromCharCode(str.charCodeAt(i) + 1));
+const incr = function (str) {
+  const arr = [];
+  for (let i = 0; i < str.length; i++) {
+    arr.push(String.fromCharCode(str.charCodeAt(i) + 1));
   }
-const y = x.join('');
-return y;
-}
+  return arr.join('');
+};
+
+console.log(incr('hello'));
